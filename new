@@ -1,0 +1,6 @@
+
+if [ $1 ] ; then
+    cp template.ino $1
+else
+    echo 'no name entered'
+fi
